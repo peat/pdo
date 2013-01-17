@@ -9,13 +9,13 @@ published: true
 meta:
   _edit_last: '2'
 ---
-<em>[Alas, Google Wave, we hardly knew thee!  Google pulled the plug on Wave in early August.  It was fun while it lasted, and I hope it inspires others to build tools that challenge the status quo of how we communicate on the Internet!]</em>
+<em>\[Alas, Google Wave, we hardly knew thee!  Google pulled the plug on Wave in early August.  It was fun while it lasted, and I hope it inspires others to build tools that challenge the status quo of how we communicate on the Internet!\]</em>
 
 My knee jerk reaction to <a href="http://wave.google.com/">Google Wave</a> was pretty poor:  I fired up a Wave with the person who invited me, and immediately fell into the familiar pattern of instant messaging.  It was a little disconcerting to see the other person typing in real time, and kind of a pain to click to start a response to the messages they left.  The interface felt clunky, it was embarrassing to correct my writing in front of other people, and I didn't get the intuitive "ah hah!" moment I was hoping for.
 
 Despite the initial let down, I decided to stick with it for a week, and try to use it for different tasks where I would normally use e-mail, instant messaging, or a wiki.  The result?
 
-<strong>I love it</strong>, despite a couple of rough spots.
+_I love it_, despite a couple of rough spots.
 
 The experience that won me over was working with a client on requirements for extending their web application.  This is the sort of work I do every day -- collaborating with people to determine how and what we're going to build for them.  It's an organic process, involving considerable back-and-forth discussion and documentation of expectations, assumptions, dependencies, time, and money.
 
@@ -38,5 +38,3 @@ That said, once you have access to a Wave system, you'll still have to deal with
 All things considered, I think Google Wave is a big step forward in online communication, and has the potential to be a huge win for Google.  I can honestly say it has provided real world value for my clients, myself, and my employer.  Wave has taken a prominent place in my communication toolbox, along side e-mail and instant messaging.  I hope it stays there, and I'm looking forward to the time when I can connect with all of my friends, colleagues, and clients.
 
 Who else has had the opportunity to use Google Wave in a production environment, to solve real world problems?  I'd love to hear how it succeeded or failed, and what techniques other people are using.
-
-PS: If you're already on board, send me a wave at peatbakke@googlewave.com!

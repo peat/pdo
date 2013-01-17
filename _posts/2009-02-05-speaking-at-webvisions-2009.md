@@ -15,7 +15,7 @@ published: true
 meta:
   _edit_last: '2'
 ---
-<a href="http://webvisionsevent.com/"><img class="alignright" style="margin-bottom: 10px; margin-left: 20px;" title="WebVisions 2009" src="http://webvisionsevent.com/pix/pix2009/logo.gif" alt="" width="260" height="53" /></a>I'm very happy to announce that I'm speaking at <a href="http://webvisionsevent.com/">WebVisions 2009</a>.
+<a href="http://webvisionsevent.com/"><img class="alignright" style="margin-bottom: 10px; margin-left: 20px;" title="WebVisions 2009" src="http://webvisionsevent.com/pix/pix2009/logo.gif" alt="" width="260" height="53" /></a>I'm very happy to announce that I'm speaking at [WebVisions 2009](http://webvisionsevent.com/).
 
 "<a href="http://webvisionsevent.com/sessions/serving_the_next_billion_4D70/">Serving the Next Billion</a>" is an hour long session about the perspective that people from developing nations bring to the Internet, and how web nerds can help improve the parts of the world that need it most.
 

@@ -49,10 +49,10 @@ Tell me what your vision is. Tell me how Occupying is actively moving our countr
 
 Otherwise, consider doing something that actually makes a difference: donate your time to soup kitchens and shelters. It's getting cold out there, and there are families that desperately need food and a safe place to sleep.
 
-<b>I bet 99% of you won't do a damn thing, and I'll put money on it</b>: up to $500 in matching donations to <a href="http://www.outsidein.org/">Outside In</a>, a shelter for homeless kids here in Portland. <a href="https://outsidein.ejoinme.org/MyPages/DonationPage/tabid/71162/Default.aspx">Show me your donation</a>, no matter how small, and I'll match it.
+*I bet 99% of you won't do a damn thing, and I'll put money on it* -- up to $500 in matching donations to <a href="http://www.outsidein.org/">Outside In</a>, a shelter for homeless kids here in Portland. <a href="https://outsidein.ejoinme.org/MyPages/DonationPage/tabid/71162/Default.aspx">Show me your donation</a>, no matter how small, and I'll match it.
 
-<b>Update</b>: It's been about 12 hours, and we've raised $640 (including matching donations) for Outside In. Thank you. Coincidentally, Occupy Portland also announced plans for <a href="http://occupyportland.org/2011/11/03/sat-nov-5th-930-rally-march-bank-transfer-day/">Bank Transfer Day</a>.  Money talks. Lets see who walks.
+*Update* - It's been about 12 hours, and we've raised $640 (including matching donations) for Outside In. Thank you. Coincidentally, Occupy Portland also announced plans for <a href="http://occupyportland.org/2011/11/03/sat-nov-5th-930-rally-march-bank-transfer-day/">Bank Transfer Day</a>.  Money talks. Lets see who walks.
 
-<b>Update</b>: Almost at $1000 for Outside In, including matching. Thank you!
+*Update* - Almost at $1000 for Outside In, including matching. Thank you!
 
-<b>Update</b>: We passed the $1000 for Outside In, thanks to everyone!
+*Update* - We passed the $1000 for Outside In, thanks to everyone!

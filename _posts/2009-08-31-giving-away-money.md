@@ -26,6 +26,6 @@ If you're interested, send me an <a href="mailto:peat@peat.org">e-mail</a> with 
 
 Free money, for the first 18 people who want it.  Seriously.
 
-<strong>Update:</strong> I stuffed and sent out a pile of envelopes this weekend.  If you got in touch with me before Friday, you're getting an extra banknote.  Free money, people!  Come get it!
+*Update*: I stuffed and sent out a pile of envelopes this weekend.  If you got in touch with me before Friday, you're getting an extra banknote.  Free money, people!  Come get it!
 
-<strong>Update:</strong> All the money is gone, but you're welcome to get in touch if you're interested in the next batch!
+*Update*: All the money is gone, but you're welcome to get in touch if you're interested in the next batch!

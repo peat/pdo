@@ -12,7 +12,7 @@ Game Boy Advance: US$60
 
 Pirated Games: US$4 each.
 
-Sucking the brains out of the back of a fried pigeon head:  <i>Priceless</i>.
+Sucking the brains out of the back of a fried pigeon head:  _Priceless_.
 
 Hey Everybody!
 
@@ -22,7 +22,7 @@ Hong Kong is a pretty spectacular city, by any account.  The first thing that re
 
 The family I'm staying with is the family of one of Poncho's friends from school - they live on the 34th floor of one of these towers, in an apartment the size of, well, it's quite a bit smaller than a typical high school classroom, and a little bit bigger than my bed room at home. Bedrooms are 7' by 10' closets (there's two of them), the bathroom is the same size, and the kitchen is just large enough for a mini appliance stack and a counter top.  The crazy part is that this apartment cost them roughly $400,000 US dollars - it's standard fare for an upper middle class family in Hong Kong.
 
-They're tremendously nice people - I have the feeling I'm going to come back at least 15 pounds heavier, because they insist on stuffing us to the gills every night with fried [insert ANY meat here] dishes with [insert flavor] sauces.  No, I wasn't kidding about the pigeon brain.  Zifirlah, Poncho's buddy from school, has been taking us on tours of the city, which is great because he's a young adventurous guy who speaks the local languages and likes to do things off the beaten path.
+They're tremendously nice people - I have the feeling I'm going to come back at least 15 pounds heavier, because they insist on stuffing us to the gills every night with fried \[insert ANY meat here\] dishes with \[insert flavor\] sauces.  No, I wasn't kidding about the pigeon brain.  Zifirlah, Poncho's buddy from school, has been taking us on tours of the city, which is great because he's a young adventurous guy who speaks the local languages and likes to do things off the beaten path.
 
 I get a kick out of the transportation systems here.  The busses are double deckers, which makes public transportation a LOT more exciting - sitting in the front on the top deck while the driver below navigates the narrow streets at harrowing speeds is an experience that would probably cost $10 a pop at an amusement park .. yet only costs about $1.50 (US) for as much as you can handle.  They have "Octopus Cards" for paying public transit fees - they're magnetic cards (like key cards) that you put in your wallet and wave at a sensor at a bus/train station to pay your fare.  I have no idea why they're called Octopus Cards, other than the people here seem to be preoccupied with tentacled creatures.
 

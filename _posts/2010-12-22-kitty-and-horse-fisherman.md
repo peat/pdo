@@ -12,7 +12,7 @@ meta:
 ---
 <img src="http://peat.s3.amazonaws.com/photos/kitty-and-horse-fisherman.jpg" alt="" style="width: 500px" />
 
-What the f*ck ... ?
+What the f\*ck ... ?
 
 I love this photograph because it's a photograph. If someone had painted this, it would be difficult to move beyond the "WTF?" moment, as the explanation would simply be an oddity inside the painter's head. People put absurd shit on canvas all the time and call it "art," but it's empty work: the quest for the absurd is exhausting, unending, and ultimately unrewarding.
 
