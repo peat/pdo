@@ -1,0 +1,38 @@
+---
+layout: post
+title: ! 'New Zealand IV: Winter Kicks in the Door'
+tags:
+- Travel
+status: publish
+type: post
+published: true
+meta: {}
+---
+<p class="entry-body">Numb fingers in May is a new, and somewhat novel experience. Things have gotten quite chilly down here, and my instincts are a bit out of whack -- there's something not quite right about the seasonal switcheroo mother nature's pulled on me. I dream of sail boats and late summer nights, but wake up to frosty, dark mornings. At least, I would if I woke up before 10, but I'm an arts student and I can't be bothered to do such terrible things.</p>
+Regardless, May has been pretty good to me. I have a couple of projects cooking up nicely, school is going reasonably well, and I've been able to avoid terrible mishaps as a general rule. There's only been one big disappointment, but I'll get around to that later. Good news should always come first!
+
+First, my extra-curricular projects. I've found a studio space so that I can get back into photography, but it needs a bit of work ... and stairs. It's above the indoor paintball arena I play at, but it's only accessable with a rickety step ladder, which makes it a bit of an adventure. The space is huge, as it used to be an aerobics gym, and there used to be stairs, but the owner of the building sawed them off because they were inconveniently placed. Or something. It may have been for fun. It's hard to tell. Regardless, as soon as I get my studio lights shipped down here (and find models who aren't afraid of step ladders), I'll be back in business.
+
+The second project I've been toiling away at is a completely rewritten "groupware" system for the community server I run. Specifically, it's a system with forums and other such tools that help me and my friends stay in touch. It's the biggest hunk of software I've ever written, and it currently weighs in at about 4,500 lines of code (in 6 different programming languages, none the less). Not terribly big, but still sizable. If anyone reading this is a PHP guru who's looking for an interesting way to kill some time (and get free hosting), drop me a line and we'll figure something out. Anyhow, I think it's about two or three weeks away from it's first major release.
+
+School is progressing well, although I'm starting to get a bit nervous about tests -- my math and linguistics tests in particular. Math was one of my strong points back in elementary and middle school, but after going to an arts school I sort of lost interest ... and now I'm essentially an idiot when it comes to anything other than simple linear algebra, and I don't enjoy it at all. On the other hand, linguistics is a fantastically enjoyable subject, it's just unfamiliar and there's a lot of memorization of strange terms and a new alphabet, so it's a bit difficult.
+
+My philosophy-based classes are kicking ass. Human Nature and Art Theory are my two favorites, and both are taught by my favorite professors, which I don't think is a coincidence. Strangely enough, they're both Americans. Or maybe it's not so strange -- I can understand why a well educated and intelligent person would want to work in a pleasant and beautiful country like New Zealand.
+
+My Art Theory prof, Denis Dutton, is the editor of <a href="http://web.archive.org/web/20030317071549/http://www.aldaily.com/">Arts &amp; Letters Daily</a>, an interesting collection of editorial articles from around the web, which has been nominated for a <a href="http://web.archive.org/web/20030317071549/http://www.webbyawards.com/">Webby</a>. Good stuff. He has a tangental, ranty, and humorous lecture style that makes being locked in a hall for two hours an enjoyable experience.
+
+He may also have good taste in music. I ran into him at a performance of Ligeti, Prokofiev, and Dvorak a week-or-so ago. That was quite enjoyable, and considering student tickets for performances cost about five U.S. dollars, I think I'll be going more often. The New Zealand Symphonic Orchestra is quite good, and the Christchurch Town Hall performance center is quite nice -- cozily small, and it sounds great. They also have a gigantic organ, which I'd like to see in action some day.
+
+The university library has quite a few CDs to loan, so I've been listening to a lot of Prokofiev. He's the man, as far as I'm concerned with classical music. His piano concertos are amazing, and his score for Ivan the Terrible is pretty damn thrilling. Better than the movie, in my opinion. The only other soundtrack I can say that about is the Mortal Combat series, all of which were "inspired by the movie," even though none (except for a couple songs off the first album) were featured in it.
+
+Oops, there goes my credibility as a music critic.  Heh.
+
+Oh, and one more thing related to music: one of my good friends might get the opportunity to play with <a href="http://web.archive.org/web/20030317071549/http://www.thestoutfellows.com/">The Stoutfellows</a>, the kick ass Irish rock band I've mentioned previously. That would rule. They also seem to need some good photographs, so I think I may approach them with an offer they can't refuse. So to speak.
+
+If you're a sports fan, you may be interested to know that the international <a href="http://web.archive.org/web/20030317071549/http://www.super12rugby.com/">Super 12 Rugby</a> cup was won by the local boys, the Canterbury Crusaders ... who also happened to be completely undefeated the <i>entire</i> season, and managed to get 15 players on the All Blacks. What can I say. Rugby is religion around here, and it's kind of contagious. Sports appreciation doesn't run a very strong streak in my family, but I have to say that watching rugby over the past couple of months has been a good time. Some of the skeptical among you have noted that cheap beer may be an influencing factor in my appreciation of rugby, but all things considered, it's a hell of a lot more enjoyable watching a genuine rugby match than it is watching sports where advertising companies can call timeouts (cough<i>football</i>cough).
+
+With all that in mind, it's hard to be in a bad mood, but I've spent a good portion of this evening being more than a bit grumpy about circumstances revolving around the mutual exclusivity of spending a day with the Dalai Lama and passing my Human Nature philosophy class. Here's the low down: Tomorrow, the Dalai Lama will be hanging out in Nelson, giving talks and doing interesting things, as he tends to do. I've been planning on the trip to see the Dalai Lama for several months, and the ticket was bought for me by my best friend's mom. Unfortunately, I'm also scheduled for a test that makes up 25% of my philosophy grade. I proposed taking a make-up test in addition to writing an extra essay, in exchange for the opportunity to hang out with the Dalai Lama (an altogether philosophical pursuit in it's own right), but they turned me down. <i>Everyone</i> I talked to said it was a reasonable trade ... even the professors, who eventually referred me to the Dean of Arts. Unfortunately, I was shot down. Something about fairness to the other students, although I'm not sure how that works, considering I'd be doing <i>more</i> work then them in the end.  Bah.  Frustrating.
+
+Regardless, I'm ready to kick ass on the test tomorrow. It's my strongest subject, and I've been studying hard, so I'm not too concerned about it. Just disappointed about not getting to see the Dalai Lama.
+
+So, that's the month in review. I've been a slacker about posting to my website, so I'll try to do better in the upcoming weeks. As always, I hope all is well in whatever part of the world you happen to be in, and I'm looking forward to hearing from you if you're so inclined.

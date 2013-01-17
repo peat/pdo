@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>{{ page.title }} :: peat dot org</title>
+    <!-- ensure this is read as utf-8 --> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!-- reset everything -->
+    <link href="/css/reset.min.css" rel="stylesheet" type="text/css">
+
+    <!-- local styles -->
+    <link href="/css/base.css" rel="stylesheet" type="text/css">
+
+    <!-- hooray, fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+    <div id="holder">
+      <header>
+	<ul>
+	  <li id="site-title"><a href="/">peat.org</a></li>
+	  <li id="about"><a href="/about.html">about</a></li>
+	  <li id="contact"><a href="#">contact</a></li>
+	</ul>
+      </header>
+      
+      <div id="content">
+	{{ content }}
+      </div>
+      
+      <footer>
+	All content copyright &copy; 2006-{{ site.time | date: "%Y" }} by Peat Bakke. All rights reserved.
+      </footer>
+      
+    </div>
+    
+    <script type="text/javascript">
+      
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-26918710-1']);
+      _gaq.push(['_setDomainName', 'peat.org']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+      
+    </script>
+    
+  </body>
+</html>
