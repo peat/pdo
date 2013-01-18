@@ -1,0 +1,15 @@
+---
+layout: default
+title: blog archives
+---
+<h2>Blog Archive</h2>
+
+<ul id="blog-list">
+  {% for post in site.posts %}
+  <li>
+    <a class="title" href="{{post.url}}" rel="bookmark" title="Permanent link to {{ post.title }}">{{ post.title }}</a>
+    <div class="date">{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</div>
+  </li>
+  {% endfor %}
+</ul>
+
