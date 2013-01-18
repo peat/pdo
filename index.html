@@ -4,15 +4,25 @@ title: welcome
 ---
 
 <h2>Blog</h2>
-
 <ul id="blog-list">
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts offset:1 limit:5 %}
   <li>
     <a class="title" href="{{post.url}}" rel="bookmark" title="Permanent link to {{ post.title }}">{{ post.title }}</a>
     <div class="date">{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</div>
   </li>
   {% endfor %}
   <li>
-    <a href="/blog.html">... and {{ site.posts | size | minus:5 }} more.</a>
+    <a href="/blog.html">... and {{ site.posts | size | minus:6 }} more.</a>
   </li>
+</ul>
+
+<h2>Find Me</h2>
+<ul id="find-list">
+  <li><a href="https://www.vizify.com/peat-bakke">Vizify</a></li>
+  <li><a href="http://www.linkedin.com/in/peatbakke/">LinkedIn</a></li>
+  <li><a href="http://twitter.com/peat">Twitter</a></li>
+  <li><a href="http://facebook.com/peatbakke">Facebook</a></li>
+  <li><a href="http://flickr.com/photos/mistermoss">Flickr</a></li>
+  <li><a href="skype://PeatBakke">Skype</a></li>
+  <li><a href="https://foursquare.com/user/165270">Foursquare</a></li>
 </ul>
