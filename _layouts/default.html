@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-
     <title>{{ page.title }} :: peat dot org</title>
-    <!-- ensure this is read as utf-8 --> 
+    
+<!-- ensure this is read as utf-8 --> 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
     <!-- reset everything -->
@@ -15,8 +15,28 @@
     <!-- hooray, fonts -->
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet" type="text/css">
 
+    <!-- ATOM feed  -->
+    <link rel="alternate" type="application/rss+xml" title="peat.org" href="/atom.xml" />
+
+    <!-- openid discovery for peat.org identity -->
+    <meta http-equiv="X-XRDS-Location" content="http://peat.myopenid.com/?xrds=1" /> 
+    <meta http-equiv="X-Yadis-Location" content="http://peat.myopenid.com/?xrds=1" />
+
   </head>
   <body>
+
+    <!-- facebook stuff ... derp. -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- general content area -->
     <div id="holder">
 
       <header>
@@ -42,6 +62,7 @@
       
     </div>
     
+    <!-- google analytics -->
     <script type="text/javascript">
       
       var _gaq = _gaq || [];
