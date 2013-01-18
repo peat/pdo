@@ -2,10 +2,17 @@
 layout: default
 title: welcome
 ---
-{% for post in site.posts limit:5 %}
-<article>
-  <h2><a href="{{post.url}}" rel="bookmark" title="Permanent link to ">{{ post.title }}</a></h2>
-  <span>{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</span>
-  {{ post.content }}
-</article>
-{% endfor %}
+
+<h2>Blog</h2>
+
+<ul id="blog-list">
+  {% for post in site.posts limit:5 %}
+  <li>
+    <a class="title" href="{{post.url}}" rel="bookmark" title="Permanent link to {{ post.title }}">{{ post.title }}</a>
+    <div class="date">{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</div>
+  </li>
+  {% endfor %}
+  <li>
+    <a href="/blog.html">... and {{ site.posts | size | minus:5 }} more.</a>
+  </li>
+</ul>
