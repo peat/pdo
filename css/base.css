@@ -70,7 +70,6 @@ article img { display: block; margin: 1em auto; border: 1px solid #000; box-shad
 #share { 
     border: 1px solid #aaa; 
     width: 80px; 
-    height: 45px;
     float: right; 
     padding: 1em; 
     z-index: 10; 
@@ -81,8 +80,9 @@ article img { display: block; margin: 1em auto; border: 1px solid #000; box-shad
     box-shadow: 2px 2px 8px #aaa;
 }
 
-#share ul { list-style: none; }
+#share ul { list-style: none; padding: 0; margin: 0; height: 75px }
 #share ul, #share li { padding: 0; margin: 0 }
+#share li { height: 25px; }
 
 #blog-list { list-style: none; margin: 0; padding: 0; }
 #blog-list li { margin: 1em; padding: 0; }
