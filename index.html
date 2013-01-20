@@ -5,14 +5,14 @@ title: welcome
 
 <h2>Blog</h2>
 <ul id="blog-list">
-  {% for post in site.posts offset:1 limit:5 %}
+  {% for post in site.posts limit:5 %}
   <li>
     <a class="title" href="{{post.url}}" rel="bookmark" title="Permanent link to {{ post.title }}">{{ post.title }}</a>
     <div class="date">{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</div>
   </li>
   {% endfor %}
   <li>
-    <a href="/blog.html">... and {{ site.posts | size | minus:6 }} more.</a>
+    <a href="/blog.html">... and {{ site.posts | size | minus:5 }} more.</a>
   </li>
 </ul>
 
