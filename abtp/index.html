@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apples by the Pound</title>
+    <!-- all hail jquery! -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+    
+    <!-- mmm, fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Puritan:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+    
+    <!-- load up the data set; it will be in the chartData variable -->
+    <script type="text/javascript" src="data.js"></script>
+
+    <!-- Framework CSS --> 
+    <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection"> 
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print"> 
+    <!--[if lt IE 8]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    
+    <style>
+      body { margin-top: 2em; font-family: 'Puritan', arial, sans-serif; }
+      h1 { text-align: center; font-weight: bold; margin-bottom: 2em; }
+      
+      p { font-size: 13pt; }
+    
+      .barGroup { width: 100%; padding: 0.2em 0; }
+      .barLabel { text-align: right; vertical-align: middle; color: #444; }
+      .barLabelHover { font-weight: bold; color: #000; }
+      .barFull { background-color: #888; color: #888; }
+      .barFullHover { background-color: #DE4B1E; color: #DE4B1E; }
+      
+      #theChart { margin: 4em 0; }
+      
+      #footer { font-size: 12pt; text-align: center; }
+      
+      #detailGroup { 
+        position: absolute; 
+        z-index: 10; 
+        width: 12em; 
+        background-color: #FFF2A4;
+        border: 1px solid #DE4B1E; 
+        padding: 0.5em;
+        -webkit-box-shadow: 3px 3px 5px #444;
+        -moz-box-shadow: 3px 3px 5px #444;
+      }
+      #detailGroup ul { padding: 0; margin: 0; list-style: none; }
+      #detailGroup li { padding: 0; margin: 0; text-align: center; }
+      #detailGroup .label { font-weight: bold; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Apples by the Pound</h1>
+      <div class="span-12">
+        <p>
+          <b>When shopping for high tech gifts this holiday season, impress your
+          special someone with a pound of Apples.</b>
+        </p>
+        <p>
+          Diamonds, gold, and other precious things are valued by weight &mdash; why not
+          electronics?
+        </p>
+      </div>
+      <div class="span-12 last">
+        <p>
+          For the music lover, nothing says "I love you" like iPod Nanos,
+          extravagantly priced at $3,866.33 per pound.
+        </p>
+        <p>
+          Those at the bottom of Santa's
+          list will have to make do with a 27" iMac ($55.84 per pound).
+        </p>
+      </div>
+      <div class="span-24 last" style="text-align: center">
+        (mouse over the chart for details)
+      </div>
+      
+      <div class="span-24 last" id="theChart"></div>
+      
+      <div class="span-24 last" id="footer">
+        Copyright &copy; 2010, <a href="http://peat.org/">Peat Bakke</a> &mdash; Data collected December 9th, 2010</p>
+      </div>
+      
+      <div class="template span-24" id="barTemplate">
+        <div class="barLabel span-5"></div>
+        <div class="bar span-19 last">
+          <div class="barFull">|</div>
+          <div class="barEmpty"></div>
+        </div>
+      </div>
+      <div class="template" id="detailGroup">
+        <ul class="detailList">
+          <li style="font-size: 1.2em; font-weight: bold;">$<span class="perPound"></span> per pound.</li>
+          <li>$<span class="price"></span>, <span class="pounds"></span> lbs.</li>
+        </ul>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $('.template').hide();
+            
+      // set the numerator; hard coded for now.
+      var maxValue = chartData[0].per_pound
+
+      // gives us a percent width for the used bar
+      var pctMultiplier = 100.0 / maxValue
+      
+      // write out the bars
+      $.each(chartData, function(idx,data) {
+          var newBar = $('#barTemplate').clone()
+          baseId = selectorFromLabel( data.label ) + "ID"
+          
+          newBar.attr('id', baseId )
+          newBar.addClass('barGroup')
+  
+          $('#theChart').append(newBar) // attach to the DOM so that we can abuse it.
+
+          $('#' + baseId + ' .barLabel').html( data.label )
+          
+          var barFullPct = (data.per_pound * pctMultiplier) + '%'
+          var barEmptyPct = 100.0 - barFullPct
+          
+          $('#' + baseId + ' .barFull').css('width', barFullPct )
+          $('#' + baseId + ' .barEmpty').css('width', barEmptyPct )
+          
+          // attach the record
+          $('#' + baseId ).data( data )
+          
+          newBar.show()
+        }
+      )
+      
+      // unique ID generation
+      function selectorFromLabel( label ) { return label.toLowerCase().replace(/[^a-z0-9]/g,'') }
+      
+      // hover behavior
+      $('.barGroup').hover(
+        function(e) {
+          var localId = $(this).attr('id')
+          $('#' + localId + ' .barFull').toggleClass('barFullHover')
+          $('#' + localId + ' .barLabel').toggleClass('barLabelHover')
+          setupPanel( e, $(this).data() )
+          $('#detailGroup').toggle()
+        }
+      )
+      
+      function setupPanel( event, data ) {
+        // write out the data
+        $('#detailGroup .perPound').html( data.per_pound )
+        $('#detailGroup .price').html( data.price )
+        $('#detailGroup .pounds').html( data.pounds )
+        
+        // set position relative to the mouse
+        var panel = $('#detailGroup')
+        panel.css( {'top':event.pageY - (panel.height() / 2),'left':event.pageX + 10})
+      }
+      
+    </script>
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4380968-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </body>
+</html>

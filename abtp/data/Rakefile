@@ -1,0 +1,31 @@
+desc "Builds the data out of the raw.csv file"
+task :build do
+  drop_first = true # drops the first line of the file; header data
+  
+  data = [] # container for the parsed data
+  
+  File.open('data.csv','r') do |f|
+    
+    f.each do |line|
+      
+      # drop the first line if we need to
+      if drop_first
+        drop_first = false
+        next
+      end
+      
+      # remove EOLs, break it up.
+      d = line.strip.split(',')
+      
+      # convert to JSON; append to data
+      data << "\{'per_pound':#{d.pop},'per_gram':#{d.pop},'pounds':#{d.pop},'grams':#{d.pop},'price':#{d.pop},'label':'#{d.pop}'\}"      
+    end
+  end
+  
+  data.reverse!
+  
+  File.open('../data.js','w') { |f| f.write "chartData = [#{data.join(',')}];"}
+  puts "Wrote #{data.length} records to ../data.js"
+end
+
+task :default => :build
