@@ -6,6 +6,7 @@ TARGET_DIR = File.join( ROOT_DIR, "_site" )
 
 CONTENT_TYPES = {
   ".xml"  => "text/xml",
+  ".txt"  => "text/plain",
   ".js"   => "text/javascript",
   ".css"  => "text/css",
   ".html" => "text/html",
