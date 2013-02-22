@@ -1,4 +1,5 @@
 pygments: true
+markdown: redcarpet
 permalink: /:year/:month/:day/:title/
 exclude:
   - Rakefile
