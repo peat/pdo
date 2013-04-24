@@ -11,7 +11,7 @@ meta: {}
 
 I had a fun interview with [Ray Brigleb](http://needmoredesigns.com/) for "[The Job](https://itunes.apple.com/us/podcast/the-job/id614173116)," a podcast about design, music, business, culture, and technology. [Listen here](http://needmoredesigns.com/blog/10-peat-bakke-of-little-bird-on-the-job/), or subscribe on [iTunes](https://itunes.apple.com/us/podcast/the-job/id614173116). Good stuff!
 
-My segment starts at 7:50.
+My segment starts at 9:10.
 
 For reference:
 
