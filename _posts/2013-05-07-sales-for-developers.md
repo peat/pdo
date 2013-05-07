@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Selling 101, Developer Edition
+title: Sales 101, Developer Edition
 tags:
 status: publish
 type: post
