@@ -9,7 +9,7 @@ meta: {}
 ---
 This morning I had the opportunity to overhear a young freelance developer talk with a store owner about a potential e-commerce project. It reminded me of a lot of the early pitches I made when I first started freelancing: a somewhat aimless and overly technical conversation that ended ambiguously.
 
-We (developers) are great at solving technical problems, but we kind of suck at selling our hard earned (and valuable!) skills to people who aren't technical. Over the last fifteen years my pitching technique has evolved considerably. I hope that this introduction can give other freelance developers a healthy framework for those awkward prospecting meetings!
+We (developers) are great at solving technical problems, but we kind of suck at selling our hard earned (and valuable!) skills to people who aren't technical. Over the last fifteen years my pitching technique has evolved considerably. I hope that this introduction can give other freelance developers a healthy framework for those awkward prospecting meetings.
 
 ### Sales with Integrity
 
