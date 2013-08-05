@@ -79,7 +79,7 @@ task :upload => [:init] do
 end
 
 
-def upload_set( path_pairs, uploaders = 1 )
+def upload_set( path_pairs, uploaders = 2 )
   require 'ruby-progressbar'
 
   progress_bar = ProgressBar.create( :title => "Uploading", :total => path_pairs.length, :format => "%t %c/%C %b" )
@@ -105,7 +105,7 @@ def upload_file( local_path, remote_object, silent = false )
   data = File.open(local_path).read
   content_type = CONTENT_TYPES[ File.extname( local_path ) ]
   
-  puts "uploading #{remote_object.key} as #{content_type}" unless silent
+  # puts "uploading #{remote_object.key} as #{content_type}" unless silent
   remote_object.write( data, :content_type => content_type )
 end
 
