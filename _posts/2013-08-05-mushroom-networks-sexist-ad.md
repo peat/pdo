@@ -16,7 +16,7 @@ Dear Mushroom Networks,
 
 I'm tempted to respond to your recent advertisement with a stream of impassioned vitriol, but instead I'll just take a few thoughtful moments to clearly explain why using sexist ads to sell networking equipment is bad for your marketing team, your engineers, your bottom line, your community, and the industry as a whole.
 
-In other words, this ad isn't just personally offensive to me, it's actually *a pretty fucking awful* ad, not just for your business, but generally speaking.
+In other words, this ad isn't just personally offensive to me, it's actually *a pretty awful* ad, not just for your business, but generally speaking.
 
 Without further ado, here's the beast in question:
 
@@ -36,7 +36,7 @@ The basic premise of the fantasy being sold in this ad is ridiculous. I try not 
 
 I'm trying to think of another conclusion I can draw about your marketing department, and that's the second unfortunate part. Mushroom Networks may have wonderfully talented, thoughtful, and responsible people working on expanding your marketshare -- and this ad does them a terrible disservice. Perhaps there was someone who raised the question of whether or not this ad would be effective or appropriate? I hope so, and I hope you listen to that voice of reason in the future.
 
-In any case, if a resume crosses my desk that bears the name of your company, you had better believe that I'm going to ask them about this advertisement, and make it *extra fucking clear* that this is not an acceptable way to promote a technology product, regardless of how good it is.
+In any case, if a resume crosses my desk that bears the name of your company, you had better believe that I'm going to ask them about this advertisement, and make it *extra clear* that this is not an acceptable way to promote a technology product, regardless of how good it is.
 
 So -- the fantasy sucks, and you're hurting the reputation of your marketing department. Lets talk about your engineers.
 
@@ -56,7 +56,7 @@ Now, lets talk about your bottom line. I'm the kind of person who makes a *lot* 
 
 Sure, I'm just one guy. Yeah, I probably won't hit your bottom line in any significant fashion. I recognize that in the grand scheme of things, it's an empty threat.
 
-But thousands of people in our industry people read my blog, follow me on Twitter, and on Facebook. :)
+But thousands of people in our industry read my blog, follow me on Twitter, and on Facebook. :)
 
 Finally, lets address the issues your ad brings up in the broad spectrum of IT communities and industries. It is a prevalent and recognized *problem* that there aren't more women in IT, and that the women in IT are often treated like second class citizens. It infuriates me to see professional, extremely talented people degraded and excluded because of something that has *nothing to do with their ability to do an amazing job.*
 
