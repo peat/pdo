@@ -79,25 +79,16 @@ task :upload => [:init] do
 end
 
 
-def upload_set( path_pairs, uploaders = 2 )
+def upload_set( path_pairs, uploaders = 1 )
   require 'ruby-progressbar'
 
   progress_bar = ProgressBar.create( :title => "Uploading", :total => path_pairs.length, :format => "%t %c/%C %b" )
  
-  # divide up the path pairs
-  chunks = path_pairs.each_slice( uploaders ).to_a
-
-  threads = chunks.collect do |c|
-    Thread.new do
-      while c.length > 0
-        local, remote = c.pop
-        upload_file( local, remote, true ) # silent mode
-        progress_bar.increment
-      end
-    end
+  path_pairs.each do |pp|
+    upload_file( pp.first, pp.last, false )
+    progress_bar.increment
   end
 
-  threads.collect { |t| t.join }
 end
 
 
@@ -105,7 +96,7 @@ def upload_file( local_path, remote_object, silent = false )
   data = File.open(local_path).read
   content_type = CONTENT_TYPES[ File.extname( local_path ) ]
   
-  puts "uploading #{remote_object.key} as #{content_type}" unless silent
+  # puts "uploading #{remote_object.key} as #{content_type}" unless silent
   remote_object.write( data, :content_type => content_type )
 end
 

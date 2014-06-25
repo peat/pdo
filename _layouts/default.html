@@ -19,9 +19,19 @@
     <link rel="alternate" type="application/atom+xml" title="peat.org" href="/atom.xml" />
 
     <!-- openid discovery for peat.org identity -->
-    <meta http-equiv="X-XRDS-Location" content="http://peat.myopenid.com/?xrds=1" /> 
-    <meta http-equiv="X-Yadis-Location" content="http://peat.myopenid.com/?xrds=1" />
+    <link rel="openid.server" href="https://indieauth.com/openid" />
+    <link rel="openid.delegate" href="http://peat.org/" />
 
+    <!-- IndieAuth identities -->
+    <link rel="me" href="https://github.com/peat" />
+    <link rel="me" href="https://twitter.com/peat" />
+    <link rel="me" href="http://linkedin.com/in/peatbakke" />
+    <link rel="me" href="http://facebook.com/peatbakke" />
+    <link rel="me" href="http://flickr.com/mistermoss" />
+    <link rel="me" href="http://foursquare.com/peat" />
+    <link rel="me" href="sms:+15037014135" />
+    <link rel="me" href="mailto:peat@peat.org" />
+ 
     <!-- google analytics -->
     <script type="text/javascript">
       
@@ -61,14 +71,6 @@
 	  <li id="about"><a href="/about.html">about</a></li>
 	</ul>
       </header>
-
-<!--
-      <div id="flash">
-	Oh, hello there. You've stumbled across a work in progress. I'm moving my website today, and I'm sure you'll
-	notice broken links, missing content, and all sorts of nasty things while I get things sorted out. Don't worry,
-	we'll soon be back to normal!
-      </div>
-      -->
   
       <div id="content">
 	{{ content }}
