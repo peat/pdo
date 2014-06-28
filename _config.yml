@@ -1,6 +1,8 @@
 highlighter: true
 markdown: redcarpet
 permalink: /:year/:month/:day/:title/
+gems:
+  - jekyll-sitemap
 exclude:
   - Rakefile
   - README.md
