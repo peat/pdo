@@ -50,7 +50,7 @@ end
 
 desc "Builds a fresh site into #{TARGET_DIR}"
 task :build => [:clean] do
-  puts `jekyll`
+  puts `jekyll build`
 end
 
 
