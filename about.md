@@ -7,7 +7,7 @@ type: page
 published: true
 ---
 
-<a href="https://github.com/peat"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+<a rel="me" href="https://github.com/peat"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 
 <a href="http://www.flickr.com/photos/mistermoss/1317603104/"><img class="u-photo" src="http://farm2.static.flickr.com/1284/1317603104_4cc900dcbf_m.jpg" width="161" height="240" align="left" style="padding: 1em; margin-right: 1em; margin-bottom: 1em; border: 1px solid #000; box-shadow: 2px 2px 8px #ccc;" /></a> Greetings!  I'm <span class="p-name">Peat Bakke</span>, and I help bootstrap, scale, and fix web oriented companies. I'm the <span class="p-job-title">CTO</span> at <a class="p-org" href="http://buildincredible.com/">Incredible</a>, and a mentor at <a href="http://piepdx.com/">PIE</a>, the Portland Incubator Experiment. Generally speaking, I'm an entrepreneurial software developer, a photographer, a speaker, an occasional cyclist, and a collector of odd hobbies.
 
